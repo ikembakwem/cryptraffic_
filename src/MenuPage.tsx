@@ -5,25 +5,30 @@ const MenuPage = ({
 }) => {
   return (
     <div className="h-screen desktop:hidden">
-      <div className="absolute z-50 w-full px-4">
+      <div className="absolute z-50 w-full">
         <nav>
-          <div className="flex flex-col gap-4 py-4 font-medium text-lg">
-            <a href="/" onClick={onClick}>
+          <div className="flex flex-col font-medium">
+            <a href="/" onClick={onClick} className="py-5 px-6">
               <span>Home</span>
             </a>
-            <a href="/articles" onClick={onClick}>
+            <a href="/articles" onClick={onClick} className="py-5 px-6">
               <span>Articles</span>
             </a>
-            <a href="/projects" onClick={onClick}>
+            <a href="/projects" onClick={onClick} className="py-5 px-6">
               <span>Projects</span>
             </a>
-            <a href="/about" onClick={onClick}>
+            <a href="/about" onClick={onClick} className="py-5 px-6">
               <span>About Me</span>
             </a>
           </div>
-          <div className="text-indigo-700 font-medium">
-            <button>Hire Me</button> <span className="text-black">or</span>{" "}
-            <button>Get in touch</button>
+
+          <div className="flex flex-col md:flex-row py-5 px-6 gap-3">
+            <button className="cursor-pointer flex justify-center items-center w-full h-14 max-w-full text-center rounded-full bg-indigo-800 text-white">
+              <span className="font-semibold">Get started</span>
+            </button>
+            <button className="cursor-pointer flex justify-center items-center w-full h-14 max-w-full text-center rounded-full bg-gray-80">
+              <span className="font-semibold">Sign in</span>
+            </button>
           </div>
         </nav>
       </div>

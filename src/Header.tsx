@@ -7,7 +7,7 @@ export const Header = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 768) {
+      if (window.innerWidth > 1024) {
         setIsOpen(false);
       }
     };
@@ -26,7 +26,9 @@ export const Header = () => {
         <div className="flex justify-between max-w-container items-center mx-auto px-4 relative h-16">
           <div className="flex items-center pb-2 md:basis-3/12">
             <a href="/">
-              <h1>Logo</h1>
+              <div className="text-xl leading-tight font-bold text-indigo-800">
+                Cryptraffic
+              </div>
             </a>
           </div>
           <nav className="hidden desktop:inline-flex justify-center gap-x-6 desktop:basis-6/12">

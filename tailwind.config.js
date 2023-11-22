@@ -9,6 +9,7 @@ export default {
       colors: {
         gray: {
           60: "var(--gray-60)",
+          80: "var(--light-gray)",
         },
         line: "var(--line)",
       },
