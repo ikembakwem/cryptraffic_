@@ -32,18 +32,18 @@ export const Header = () => {
             </a>
           </div>
           <nav className="hidden desktop:inline-flex justify-center gap-x-6 desktop:basis-6/12">
-            <a href="/">Home</a>
-            <a href="/projects">Projects</a>
-            <a href="/articles">Articles</a>
-            <a href="/about">About Me</a>
+            <a href="/">Explore</a>
+            <a href="/projects">Individuals</a>
+            <a href="/articles">Businesses</a>
+            <a href="/about">Company</a>
           </nav>
           <div className="flex items-center justify-end gap-x-2 basis-3/12">
             <div className="hidden desktop:flex items-center gap-x-4">
-              <button className="cursor-pointer inline-flex items-center justify-center rounded-full h-10 py-3 px-5 border-2 border-blue-60 bg-blue-700 text-white">
-                Hire Me
+              <button className="cursor-pointer inline-flex items-center justify-center rounded-full h-10 py-3 px-6 bg-gray-80">
+                Sign in
               </button>
-              <button className="cursor-pointer inline-flex items-center justify-center rounded-full h-10 py-2 px-3 border-2 border-blue-700 text-blue-700">
-                Get in touch
+              <button className="cursor-pointer inline-flex items-center justify-center rounded-full h-10 py-3 px-6 bg-indigo-800 text-white">
+                Get started
               </button>
             </div>
             <div className="desktop:hidden inline-flex items-center">
