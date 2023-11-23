@@ -3,7 +3,7 @@
   padding-top: 40px;
   padding-left: 24px;
   justify-content: flex-end;
-  flex: 2 1 0%;
+  flex: 1 1 0%;
 }
 
 .leftContainer {
@@ -13,4 +13,10 @@
   padding-bottom: 111px;
   flex: 1 1 0%;
   flex-direction: column;
+}
+
+.heroImage {
+  height: 534px;
+  min-width: 400px;
+  object-fit: contain;
 }
