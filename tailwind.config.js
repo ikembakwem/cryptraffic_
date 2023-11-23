@@ -8,6 +8,9 @@ export default {
         heroCopy: "425px",
         heroContainer: "1142px",
       },
+      minWidth: {
+        ctaForm: "480px",
+      },
       colors: {
         gray: {
           60: "#5b616e",

@@ -10,17 +10,17 @@ export const HeroSection = () => {
           <div className={classes.leftContainer}>
             <HeroPill />
             <h1 className="text-6xl mt-2 mb-4 leading-tighter font-medium max-w-full">
-              <span className="inline-block max-w-heroCopy">
-                Jump start your crypto portfolio
+              <span className="inline-block md:max-w-heroCopy">
+                Jump start your cryptopurse portfolio
               </span>
             </h1>
             <p className="text-xl mb-8 leading-snug font-medium">
               Cryptraffic is the easiest place to buy and sell cryptocurrency.
               Sign up and get started today.
             </p>
-            <div>
+            <div className="w-full md:min-w-ctaForm">
               <form action="post" className="flex w-full">
-                <div className="relative border border-gray-60/20 rounded">
+                <div className="flex grow shrink basis-auto relative border border-gray-60/20 rounded">
                   <input
                     type="text"
                     className="grow shrink basis-0 p-5 rounded text-lg h-auto"
@@ -29,7 +29,9 @@ export const HeroSection = () => {
                 </div>
                 <div className="ml-4">
                   <button className="relative w-full rounded text-white cursor-pointer p-6 border border-indigo-800 bg-indigo-800 leading-tighter">
-                    <span className="px-6">Get started</span>
+                    <span className="flex w-full flex-nowrap whitespace-nowrap px-6">
+                      Get started
+                    </span>
                   </button>
                 </div>
               </form>
