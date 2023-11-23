@@ -1,15 +1,13 @@
-import { Footer } from "./Footer";
-import { Header } from "./Header";
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
+import { HeroSection } from "./components/HeroSection";
 
 function App() {
   return (
     <>
       <Header />
-      <section className=" bg-gray-200 h-screen">
-        <div className="flex items-center justify-center font-bold text-4xl text-teal-800">
-          Hello World!
-        </div>
-      </section>
+      <HeroSection />
+
       <Footer />
     </>
   );

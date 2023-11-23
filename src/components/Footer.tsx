@@ -1,6 +1,10 @@
 import classes from "./Footer.module.css";
 import { PageLinks } from "./PageLinks";
-import { firstColLinks, secondColLinks, thirdColLinks } from "./utils/linkData";
+import {
+  firstColLinks,
+  secondColLinks,
+  thirdColLinks,
+} from "../utils/linkData";
 
 export const Footer = () => {
   return (
