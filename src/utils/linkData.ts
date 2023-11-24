@@ -1,4 +1,4 @@
-import { LinksData } from "../PageLinks";
+import { LinksData } from "../components/PageLinks";
 
 const firstColLinks: LinksData = [
   {
