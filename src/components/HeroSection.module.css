@@ -1,15 +1,5 @@
 .rightContainer {
   display: none;
-  padding-top: 40px;
-  padding-left: 24px;
-  justify-content: flex-end;
-  flex: 1 1 0%;
-}
-
-@media (min-width: 768px) {
-  .rightContainer {
-    display: flex;
-  }
 }
 
 .leftContainer {
@@ -21,8 +11,20 @@
   flex-direction: column;
 }
 
+@media (min-width: 768px) {
+  .rightContainer {
+    display: flex;
+    padding-top: 40px;
+    padding-left: 24px;
+    justify-content: flex-end;
+    flex: 2 1 0%;
+    height: 574px;
+  }
+}
+
 .heroImage {
   height: 534px;
+  width: 100%;
   min-width: 400px;
   object-fit: contain;
 }

@@ -10,6 +10,7 @@ export default {
       },
       minWidth: {
         ctaForm: "480px",
+        auto: "auto",
       },
       colors: {
         gray: {
@@ -17,9 +18,11 @@ export default {
           80: "var(--light-gray)",
         },
         line: "var(--line)",
+        midnightSteel: "var(--midnight-steel)",
       },
       screens: {
         desktop: "1024px",
+        largePhone: "560px",
       },
       lineHeight: {
         tighter: 1.15,
