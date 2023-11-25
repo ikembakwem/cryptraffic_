@@ -33,9 +33,9 @@ export const Header = () => {
           </div>
           <nav className="hidden desktop:inline-flex justify-center gap-x-6 desktop:basis-6/12">
             <a href="/">Explore</a>
-            <a href="/projects">Individuals</a>
-            <a href="/articles">Businesses</a>
-            <a href="/about">Company</a>
+            <a href="#">Individuals</a>
+            <a href="#">Businesses</a>
+            <a href="#">Company</a>
           </nav>
           <div className="flex items-center justify-end gap-x-2 basis-3/12">
             <div className="hidden desktop:flex items-center gap-x-4">

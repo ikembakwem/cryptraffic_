@@ -11,13 +11,13 @@ const MenuPage = ({
             <a href="/" onClick={onClick} className="py-5 px-6">
               <span>Home</span>
             </a>
-            <a href="/articles" onClick={onClick} className="py-5 px-6">
+            <a href="#" onClick={onClick} className="py-5 px-6">
               <span>Articles</span>
             </a>
-            <a href="/projects" onClick={onClick} className="py-5 px-6">
+            <a href="#" onClick={onClick} className="py-5 px-6">
               <span>Projects</span>
             </a>
-            <a href="/about" onClick={onClick} className="py-5 px-6">
+            <a href="#" onClick={onClick} className="py-5 px-6">
               <span>About Me</span>
             </a>
           </div>
