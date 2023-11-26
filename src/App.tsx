@@ -1,3 +1,4 @@
+import { FeaturesSection } from "./components/FeaturesSection";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { HeroSection } from "./components/HeroSection";
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <HeroSection />
+      <FeaturesSection />
 
       <Footer />
     </>

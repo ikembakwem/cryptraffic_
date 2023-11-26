@@ -27,6 +27,18 @@ export default {
       lineHeight: {
         tighter: 1.15,
       },
+      flexBasis: {
+        zero: "0%",
+      },
+      width: {
+        featureIcon: "72px",
+      },
+      height: {
+        featureIcon: "72px",
+      },
+      boxShadow: {
+        subtle: "rgba(218, 225, 233, 0.557) 0px 8px 16px",
+      },
     },
   },
   plugins: [],
