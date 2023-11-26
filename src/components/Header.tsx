@@ -26,7 +26,7 @@ export const Header = () => {
         <div className="flex justify-between max-w-container items-center mx-auto px-4 relative h-16">
           <div className="flex items-center pb-2 md:basis-3/12">
             <a href="/">
-              <div className="text-xl leading-tight font-bold text-indigo-800">
+              <div className="text-xl leading-tight font-bold text-primary">
                 Cryptraffic
               </div>
             </a>
@@ -39,10 +39,10 @@ export const Header = () => {
           </nav>
           <div className="flex items-center justify-end gap-x-2 basis-3/12">
             <div className="hidden desktop:flex items-center gap-x-4">
-              <button className="cursor-pointer inline-flex items-center justify-center rounded-full h-10 py-3 px-6 bg-gray-80">
+              <button className="cursor-pointer inline-flex items-center justify-center rounded-full h-10 py-3 px-6 bg-lightGray">
                 Sign in
               </button>
-              <button className="cursor-pointer inline-flex items-center justify-center rounded-full h-10 py-3 px-6 bg-indigo-800 text-white">
+              <button className="cursor-pointer inline-flex items-center justify-center rounded-full h-10 py-3 px-6 bg-primary text-white">
                 Get started
               </button>
             </div>

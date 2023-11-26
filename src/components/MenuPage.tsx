@@ -23,10 +23,10 @@ const MenuPage = ({
           </div>
 
           <div className="flex flex-col md:flex-row py-5 px-6 gap-3">
-            <button className="cursor-pointer flex justify-center items-center w-full h-14 max-w-full text-center rounded-full bg-indigo-800 text-white">
+            <button className="cursor-pointer flex justify-center items-center w-full h-14 max-w-full text-center rounded-full bg-primary text-white">
               <span className="font-semibold">Get started</span>
             </button>
-            <button className="cursor-pointer flex justify-center items-center w-full h-14 max-w-full text-center rounded-full bg-gray-80">
+            <button className="cursor-pointer flex justify-center items-center w-full h-14 max-w-full text-center rounded-full bg-lightGray">
               <span className="font-semibold">Sign in</span>
             </button>
           </div>

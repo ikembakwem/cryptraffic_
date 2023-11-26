@@ -3,8 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --gray-60: rgb(91, 97, 110);
-  --line: rgb(236, 239, 241);
+  --slate-blue: #5b616e;
+  --line: #eceff1;
   --light-gray: #e9ebee;
-  --midnight-steel: rgb(10, 11, 13);
+  --midnight-steel: #0a0b0d;
+  --primary: #002d72;
+  --secondary-accent: #009688;
+  --dark-blue: #001f4e;
+  --light-blue: #4d79ff;
+  --dark-gray: #333;
+  --danger: #ff4d4d;
 }

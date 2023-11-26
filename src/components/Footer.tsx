@@ -14,7 +14,7 @@ export const Footer = () => {
           <div className={classes.gridContainer}>
             <section className="flex flex-col pb-8 px-2">
               <div>
-                <div className="text-2xl leading-tight font-bold text-indigo-800">
+                <div className="text-2xl leading-tight font-bold text-primary">
                   Cryptraffic
                 </div>
               </div>

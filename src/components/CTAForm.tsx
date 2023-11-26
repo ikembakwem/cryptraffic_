@@ -12,7 +12,7 @@ export const CTAForm = () => {
           />
         </div>
         <div className="mt-2 largePhone:ml-4 largePhone:mt-0">
-          <button className="relative w-full rounded bg-indigo-800 text-white leading-tighter cursor-pointer p-6 border border-indigo-800">
+          <button className="relative w-full rounded bg-primary text-white leading-tighter cursor-pointer p-6 border border-primary">
             <span className="flex items-center justify-center w-full flex-nowrap whitespace-nowrap font-medium">
               <div className="px-6">Get started</div>
             </span>

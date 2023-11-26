@@ -13,12 +13,16 @@ export default {
         auto: "auto",
       },
       colors: {
-        gray: {
-          60: "#5b616e",
-          80: "var(--light-gray)",
-        },
         line: "var(--line)",
         midnightSteel: "var(--midnight-steel)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary-accent)",
+        darkBlue: "var(--dark-blue)",
+        lightBlue: "var(--light-blue)",
+        darkGray: "var(--dark-gray)",
+        lightGray: "var(--light-gray)",
+        error: "var(--danger)",
+        slateBlue: "var(--slate-blue)",
       },
       screens: {
         desktop: "1024px",

@@ -3,7 +3,7 @@ import ArrowIcon from "../assets/icons/arrow-forward.svg?react";
 
 export const HeroPill = () => {
   return (
-    <div className="flex items-center gap-x-2 cursor-pointer text-indigo-800 font-medium hover:underline">
+    <div className="flex items-center gap-x-2 cursor-pointer text-primary font-medium hover:underline">
       <BTCIcon />
       Jump start your portfolio
       <ArrowIcon />

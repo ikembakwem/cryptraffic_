@@ -23,7 +23,10 @@ export const PageLinks = ({ data }: PageLinksProps) => {
             <h2 className="font-semibold pb-2">{data.title}</h2>
             <ul className="flex flex-col pb-6">
               {data.links.map((link) => (
-                <li key={link.label} className="flex text-gray-60 font-normal">
+                <li
+                  key={link.label}
+                  className="flex text-slateBlue font-normal"
+                >
                   <a href={link.url}>
                     <span>{link.label}</span>
                   </a>
@@ -42,7 +45,7 @@ export const PageLinks = ({ data }: PageLinksProps) => {
         <h2 className="font-semibold pb-2">{data.title}</h2>
         <ul className="flex flex-col">
           {data.links.map((link) => (
-            <li key={link.label} className="flex text-gray-60">
+            <li key={link.label} className="flex text-slateBlue">
               <a href={link.url}>
                 <span>{link.label}</span>
               </a>

@@ -14,7 +14,7 @@ export const FeatureCard = ({
       </div>
       <div className="text-center largePhone:text-start">
         <h2 className="text-xl mb-4 font-medium">{title}</h2>
-        <p className="leading-normal text-gray-60">{text}</p>
+        <p className="leading-normal text-secondary">{text}</p>
       </div>
     </div>
   );

@@ -10,11 +10,11 @@ export const FeaturesSection = () => {
     <section>
       <div className="flex w-full max-w-container mx-auto px-6 desktop:py-6">
         <div className="flex flex-col items-center grow text-center pt-8 pb-16">
-          <h2 className="mb-4 text-4xl font-medium">
+          <h2 className="mb-4 text-darkGray text-4xl font-medium">
             Create your cryptocurrency portfolio today
           </h2>
-          <p className="text-gray-60">
-            Coinbase has a variety of features that make it the best place to
+          <p className="text-secondary">
+            Cryptraffic has a variety of features that make it the best place to
             start trading
           </p>
           <div className="flex flex-col-reverse items-center w-full mt-8 desktop:mt-16 desktop:flex-row desktop:justify-between">
