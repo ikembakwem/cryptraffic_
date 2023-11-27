@@ -27,6 +27,7 @@ export default {
       screens: {
         desktop: "1024px",
         largePhone: "560px",
+        md: "960px",
       },
       lineHeight: {
         tighter: 1.15,

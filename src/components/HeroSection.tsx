@@ -6,7 +6,7 @@ import { CTAForm } from "./CTAForm";
 export const HeroSection = () => {
   return (
     <section className="w-full">
-      <div className="flex max-w-heroContainer px-4 largePhone:px-14 py-6 mx-auto shrink-0">
+      <div className="flex max-w-heroContainer px-4 largePhone:px-12 py-6 mx-auto shrink-0">
         <div className="flex items-center">
           <div className={classes.leftContainer}>
             <HeroPill />
